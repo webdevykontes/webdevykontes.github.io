@@ -1,0 +1,250 @@
+/* Здесь будут храниться стили нашего сайта */
+
+body {
+	margin: 0;
+	font-family: 'Roboto';
+	font-size: 18px;
+}
+header {
+	padding-top: 59px;
+	background-color: #3a7dfd;
+	color: #ffffff;
+	padding-bottom: 22px;
+}
+img {
+	max-width: 100%;
+}
+.header-pretitle {
+	font-weight: 700;
+	margin-top: 102px;
+}
+.header-title {
+		height: 45px;
+		font-size: 48px;
+		font-weight: 700; 
+		line-height: 48.84px;
+		margin-top: 21px;
+}
+.header-subtitle {
+	font-weight: 400;
+	margin-top: 20px;
+}
+.header-button {
+	display: inline-block;
+	text-decoration: none;
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	border-radius: 50px;
+	background-color: #ffffff;
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 17px 55px;
+	margin-top: 33px;
+}
+.header-small {
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	margin-top: 9px;
+	}
+.header-button-block {
+	max-width: 210px;
+}
+/* Секция  Портфолио*/
+section {
+	background-color: #dddddd;
+	padding-top: 44px;
+}
+.porfolio-block {
+background-color: #ffffff;
+color:  #072b6f;
+}
+.portfolio-title {
+color: #072b6f;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+padding-top: 18px;
+margin-bottom: 0px;
+}
+.portfolio-subtitle {
+color: #7bb9ff;
+font-size: 14px;
+margin-top: 8px;
+margin-bottom: 20px;	
+}
+.portfolio-title, .portfolio-subtitle {
+text-align: center;
+}
+.portfolio-col-1 {
+padding-left: 75px;
+padding-top: 0px;
+padding-bottom: 15px;
+}
+.portfolio-col-2 {
+padding-right: 35px;
+}
+h3 { 
+color:  #072b6f;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+margin-top: 18px;
+margin-bottom: 0px;
+}
+.portfolio-col-text {
+color: #8f8f8f;
+font-size: 14px;
+font-weight: 400;
+padding-bottom: 0px}
+a {
+color: #072b6f;
+font-size: 14px;
+font-weight: 400;
+text-decoration: underline;
+}
+/* оформление Подвала */
+footer {
+	background-color: #3a7dfd;
+	color: #deedfe;
+	padding-top: 50px;
+	padding-bottom: 110px;
+} 
+.footer-autor {
+font-size: 24px;
+margin-top: 24px;
+margin-bottom: 7px;
+margin-left: 200px;
+}
+.footer-text {
+font-size: 18px;
+font-weight: 400;
+margin-left: 200px;
+margin-top: 7px;
+}
+.social-block {
+text-align: center;
+}
+.social-block a {
+display: inline-block;
+margin-right: 7px;
+margin-left: 7px;
+}
+.social-block img {
+width: 40px;
+}
+.footer-cta-block {
+margin-left: 100px;
+}
+.footer-cta {
+color: #deedfe;
+font-size: 18px;
+font-weight: 400;
+line-height: 40px;	
+margin-top: 10px;
+margin-bottom: 5px;
+}
+.footer-button {
+display: inline-block;
+text-decoration: none;
+display: inline-block;
+border: 1px solid #ffffff;
+background-color: transparent;
+color: #ffffff;
+border-radius: 50px;
+font-size: 18px;
+padding: 12px 40px;
+border-radius: 50px;
+}
+@media (max-width: 1200px) {
+.header-pretitle {
+	margin-top: 60px;
+}	
+.header-title {
+	font-size: 24px;
+	font-weight: 700; 
+	margin-top: 21px;
+}
+.footer-autor {
+font-size: 20px;
+margin-top: 24px;
+margin-bottom: 7px;
+margin-left: 100px;
+}
+.footer-text {
+font-size: 14px;
+font-weight: 400;
+margin-left: 100px;
+margin-top: 7px;
+}
+.social-block a {
+display: inline-block;
+margin-right: 5px;
+margin-left: 5px;
+}	
+.social-block img {
+width: 35px;
+}
+}
+@media (max-width: 992px) {
+.header-img	{
+	display: none;
+}
+.header-pretitle {
+	font-weight: 700;
+	margin-top: 10px;
+	}	
+	.footer-autor {
+font-size: 18px;
+margin-top: 24px;
+margin-bottom: 7px;
+margin-left: 100px;
+}
+.footer-text {
+font-size: 14px;
+font-weight: 400;
+margin-left: 100px;
+margin-top: 7px;
+}
+.social-block a {
+display: inline-block;
+margin-right: 5px;
+margin-left: 5px;
+}
+.social-block img {
+width: 28px;
+}
+.footer-button {
+	font-size: 14px;
+	padding: 8px 35px;
+}
+.footer-cta-block {
+margin-left: 70px;
+}
+}
+@media (max-width: 760px) {
+	header {
+	text-align: center;	
+	}
+	.header-button-block {
+	padding-left: 70px;		
+	}
+	.portfolio-col-1 {
+		padding-left: 30px;
+		padding-right: 20px;
+		margin-bottom: 30px;
+	}
+	.portfolio-col-2 {
+		padding-left: 40px;
+		padding-right: 20px;
+		margin-bottom: 30px;
+	}
+	.footer-autor, .footer-text {
+text-align: center;
+margin-left: 0px;
+}
+.footer-cta-block {
+text-align: center;
+margin-left: 0px;
+}
+}
